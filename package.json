@@ -2,9 +2,9 @@
   "name": "react-typescript",
   "version": "1.0.0",
   "description": "A starter project to begin with react using typescript",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
   },
   "author": "Ashraful Islam",
   "license": "ISC",

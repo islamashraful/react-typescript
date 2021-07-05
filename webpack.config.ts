@@ -31,9 +31,9 @@ const config: Configuration = {
     filename: 'bundle.js',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'build'),
     compress: true,
-    port: 9000,
+    port: 4000,
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
